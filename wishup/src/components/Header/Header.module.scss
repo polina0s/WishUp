@@ -1,6 +1,12 @@
-.container {
+.header {
+  padding: 20px 60px;
   background-color: var(--blue-100);
-  font: var(--juliusSansOne48px);
-  color: var(--blue-300);
-  -webkit-text-stroke: 1px var(--blue-300);
+}
+
+.toolbar {
+  padding: 0;
+}
+
+.logo {
+  margin-right: 5px;
 }
