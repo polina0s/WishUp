@@ -1,3 +1,5 @@
+import styles from './Home.module.scss'
+
 export const Home = () => {
-  return <div style={{ width: '100px', height: '100px' }}>aaaaaaaaaaaa</div>
+  return <div className={styles.container}>aaaaaaaaaaaa</div>
 }
