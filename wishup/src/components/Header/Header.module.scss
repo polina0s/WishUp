@@ -7,8 +7,16 @@
 .toolbar {
   min-height: auto;
   padding: 0;
+  justify-content: space-between;
 }
 
-.logo {
-  margin-right: 5px;
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  height: 25px;
+  background-color: var(--blue-300);
+  margin: 0px 15px;
 }
