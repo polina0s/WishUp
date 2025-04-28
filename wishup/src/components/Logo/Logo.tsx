@@ -17,7 +17,7 @@ export const Logo = ({ variant = 'LG' }: LogoProps) => {
         >
           WISHUP
         </Text>
-        <img src={star} />
+        <img className={styles.star} src={star} />
       </div>
     )
   }

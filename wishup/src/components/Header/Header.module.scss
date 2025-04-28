@@ -1,7 +1,14 @@
 .header {
-  padding: 20px 60px;
   background-color: var(--white-100);
   box-shadow: var(--dropShadow);
+}
+
+.header--desktop {
+  padding: 20px 60px;
+}
+
+.header--mobile {
+  padding: 20px;
 }
 
 .toolbar {
