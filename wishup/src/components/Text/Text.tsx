@@ -20,7 +20,7 @@ interface TextProps {
 export const Text = ({
   children,
   variant,
-  color,
+  color = 'blue-300',
   className,
   ...props
 }: React.PropsWithChildren<TextProps>) => {

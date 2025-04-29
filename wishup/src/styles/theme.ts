@@ -10,5 +10,15 @@ export const theme = createTheme({
         },
       },
     },
+    MuiFab: {
+      styleOverrides: {
+        root: {
+          boxShadow: 'none',
+          '&:hover': {
+            backgroundColor: '#cae1ff',
+          },
+        },
+      },
+    },
   },
 })

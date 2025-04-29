@@ -1,18 +1,45 @@
 .transparent {
   background-color: transparent;
+  width: auto;
+  height: auto;
 }
 
 .blue-100 {
+  background-color: var(--blue-100);
 }
 
 .XS {
+  padding: 3px;
+
+  img {
+    width: 13px;
+    height: 13px;
+  }
 }
 
 .SM {
+  padding: 4px;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .MD {
+  padding: 5px;
+
+  img {
+    width: 19px;
+    height: 19px;
+  }
 }
 
 .LG {
+  padding: 10px;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
 }
