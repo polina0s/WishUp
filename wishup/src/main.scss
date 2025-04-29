@@ -1,2 +1,10 @@
 @use './styles/fonts';
 @use './styles/variables';
+
+body {
+  background-color: var(--white-100);
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+.image {
+  padding: 0;
+  min-width: auto;
+}
+
+.text {
+  box-shadow: var(--dropShadow);
+  color: var(--white-100);
+}
+
+.LG {
+  padding: 8px 20px;
+  font: var(--montserratAlternatesLGRegular);
+}
+
+.SM {
+  padding: 7px 20px;
+  font: var(--montserratAlternatesSMRegular);
+}
+
+.blue-100 {
+  background-color: var(--blue-100);
+}
+
+.blue-200 {
+  background-color: var(--blue-200);
+}

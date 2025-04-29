@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--white-100);
+  box-shadow: var(--dropShadow);
+}
+
+.header--desktop {
+  padding: 20px 60px;
+}
+
+.header--mobile {
+  padding: 20px;
+}
+
+.toolbar {
+  min-height: auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  height: 25px;
+  background-color: var(--blue-300);
+  margin: 0px 15px;
+}

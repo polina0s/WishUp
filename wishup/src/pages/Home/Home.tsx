@@ -1,5 +1,5 @@
-import styles from './Home.module.scss'
+import { Header } from '../../components/Header'
 
 export const Home = () => {
-  return <div className={styles.container}>aaaaaaaaaaaa</div>
+  return <Header />
 }

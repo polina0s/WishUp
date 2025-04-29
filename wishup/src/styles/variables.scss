@@ -1,6 +1,6 @@
 :root {
   // COLORS
-  --white: #fffcf5;
+  --white-100: #fffcf5;
 
   --blue-100: #cae1ff;
   --blue-200: #5b8dff;
@@ -10,16 +10,19 @@
   --juliusSansOne: 'Julius Sans One';
   --montserratAlternates: 'Montserrat Alternates';
 
-  --juliusSansOne20px: 20px 'Julius Sans One';
-  --juliusSansOne24px: 24px 'Julius Sans One';
-  --juliusSansOne32px: 32px 'Julius Sans One';
-  --juliusSansOne36px: 36px 'Julius Sans One';
-  --juliusSansOne48px: 48px 'Julius Sans One';
+  --juliusSansOneXS: 20px 'Julius Sans One';
+  --juliusSansOneSM: 24px 'Julius Sans One';
+  --juliusSansOneMD: 32px 'Julius Sans One';
+  --juliusSansOneLG: 36px 'Julius Sans One';
+  --juliusSansOneXL: 48px 'Julius Sans One';
 
-  --montserratAlternates13pxRegular: 13px 400 'Montserrat Alternates';
-  --montserratAlternates16pxRegular: 16px 400 'Montserrat Alternates';
-  --montserratAlternates20pxRegular: 20px 400 'Montserrat Alternates';
+  --montserratAlternatesSMRegular: 13px 400 'Montserrat Alternates';
+  --montserratAlternatesMDRegular: 16px 400 'Montserrat Alternates';
+  --montserratAlternatesLGRegular: 20px 400 'Montserrat Alternates';
 
-  --montserratAlternates16pxBold: 16px 700 'Montserrat Alternates';
-  --montserratAlternates20pxBold: 20px 700 'Montserrat Alternates';
+  --montserratAlternatesSMBold: 16px 700 'Montserrat Alternates';
+  --montserratAlternatesLGBold: 20px 700 'Montserrat Alternates';
+
+  // SHADOW
+  --dropShadow: 0px 4px 4px 0px rgba(35, 26, 99, 0.25);
 }
