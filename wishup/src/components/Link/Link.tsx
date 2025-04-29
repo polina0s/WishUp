@@ -1,4 +1,4 @@
-import { Link } from '@mui/material'
+import { Link as LinkMui } from '@mui/material'
 import styles from './Link.module.scss'
 import classNames from 'classnames'
 
@@ -10,7 +10,7 @@ interface LinkProps {
   className?: string
 }
 
-export const MyLink = ({
+export const Link = ({
   children,
   href,
   variant,
@@ -29,8 +29,8 @@ export const MyLink = ({
   )
 
   return (
-    <Link href={href} underline="hover" className={classes}>
+    <LinkMui href={href} underline="hover" className={classes}>
       {children}
-    </Link>
+    </LinkMui>
   )
 }

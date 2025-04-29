@@ -7,9 +7,10 @@ import {
 } from '@mui/material'
 import styles from './Header.module.scss'
 import { Logo } from '../Logo'
-import { MyLink } from '../Link'
-import profile from '../../../public/images/profile.png'
+import { Link } from '../Link'
+import profile from '/images/profile.png'
 import classNames from 'classnames'
+import { ActionIcon } from '../ActionIcon'
 
 export const Header = () => {
   const theme = useTheme()
@@ -21,9 +22,9 @@ export const Header = () => {
         <AppBar className={classNames(styles.header, styles['header--mobile'])}>
           <Toolbar className={styles.toolbar}>
             <Logo variant="SM" />
-            <div className={styles.login}>
+            <ActionIcon color="transparent">
               <img src={profile} alt="Profile" />
-            </div>
+            </ActionIcon>
           </Toolbar>
         </AppBar>
       </>
@@ -35,17 +36,17 @@ export const Header = () => {
       <Toolbar className={styles.toolbar}>
         <Logo />
         <div className={styles.login}>
-          <MyLink href="#" size="LG">
+          <Link href="#" size="LG">
             log in
-          </MyLink>
+          </Link>
           <Divider
             orientation="vertical"
             variant="middle"
             className={styles.divider}
           />
-          <MyLink href="#" size="LG">
+          <Link href="#" size="LG">
             sing up
-          </MyLink>
+          </Link>
         </div>
       </Toolbar>
     </AppBar>

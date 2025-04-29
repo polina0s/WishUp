@@ -1,6 +1,6 @@
 import { Text } from '../Text'
 import styles from './Logo.module.scss'
-import star from '../../../public/images/Star.png'
+import star from '/images/star.png'
 
 interface LogoProps {
   variant?: 'SM' | 'MD' | 'LG'
