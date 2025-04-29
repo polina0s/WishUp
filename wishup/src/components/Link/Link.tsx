@@ -4,7 +4,7 @@ import classNames from 'classnames'
 
 interface LinkProps {
   variant?: 'bold'
-  size?: 'LG'
+  size?: 'SM' | 'LG'
   color?: 'blue-200'
   href?: string
   className?: string

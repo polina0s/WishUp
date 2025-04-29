@@ -1,0 +1,60 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0px;
+  box-shadow: var(--innerShadow);
+  display: grid;
+  place-items: center;
+}
+
+.container--mobile {
+  gap: 20px;
+}
+
+.logo {
+  margin-bottom: 27px;
+}
+
+.social {
+  margin-bottom: 27px;
+}
+
+.socialIcon {
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.socialIcon--mobile {
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.navigation {
+  margin-bottom: 10px;
+}
+
+.navigation--mobile {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+
+.navigationLink {
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.vingrette--mobile {
+  width: 219px;
+  height: 50px;
+}

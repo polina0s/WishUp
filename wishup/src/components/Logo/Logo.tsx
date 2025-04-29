@@ -1,15 +1,23 @@
+import classNames from 'classnames'
 import { Text } from '../Text'
 import styles from './Logo.module.scss'
 import star from '/images/star.png'
 
 interface LogoProps {
   size?: 'SM' | 'MD' | 'LG'
+  className?: string
 }
 
-export const Logo = ({ size = 'LG' }: LogoProps) => {
+export const Logo = ({ size = 'LG', className }: LogoProps) => {
+  const classes = classNames(
+    {
+      [styles['container']]: true,
+    },
+    className,
+  )
   return (
     <>
-      <div className={styles.container}>
+      <div className={classes}>
         <Text
           {...(size === 'SM' && { variant: 'juliusSansOneXS' })}
           {...(size === 'MD' && { variant: 'juliusSansOneSM' })}
