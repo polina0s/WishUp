@@ -1,10 +1,11 @@
 .container {
+  background-color: var(--white-100);
+  box-shadow: var(--innerShadow);
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 20px 0px;
-  box-shadow: var(--innerShadow);
   display: grid;
   place-items: center;
 }

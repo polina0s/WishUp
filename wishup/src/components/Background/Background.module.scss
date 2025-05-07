@@ -1,0 +1,48 @@
+.background {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.row--right {
+  overflow: hidden;
+}
+
+.row--rightWrap {
+  display: flex;
+  width: fit-content;
+  animation: row--right 40s linear infinite;
+}
+
+@keyframes row--right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.row--left {
+  overflow: hidden;
+}
+
+.row--leftWrap {
+  display: flex;
+  width: fit-content;
+  animation: row--left 40s linear infinite;
+}
+
+@keyframes row--left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.rowItem {
+  margin: 0;
+  margin: 0px 20px 20px 20px;
+}
